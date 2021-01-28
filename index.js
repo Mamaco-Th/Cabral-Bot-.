@@ -18,12 +18,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '📍D4RKBOT📍',
+    A187: '📍CABRAL BOT📍',
     instagram: 'OFF',
-    nomer: 'wa.me/21997123716',
-    aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UCRaC-6JyCW_iqbW1DbuXVxQ',
-    whatsapp: 'https://chat.whatsapp.com/KTlC0MXi3WJChdQeps5flt',
+    nomer: 'OFF',
+    aktif: 'OFF',
+    youtube: 'OFF',
+    whatsapp: 'OFF',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -89,16 +89,10 @@ const {
     spamcall,
     spamgmail,
     covidcountry,
-    infoanime,
-    gay,
     ytmp3,
-    ssweb,
     infogempa,
-    indohot,
-    loli,
     ttp,
     map,
-    waifu
 } = require('./lib')
 
 const { animPict, cewePict, cowoPict } = require('./lib/pict')
